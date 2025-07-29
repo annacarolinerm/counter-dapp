@@ -1,13 +1,25 @@
-# Sample Hardhat Project
+# Counter DApp
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+Aplicativo descentralizado de contador feito com Solidity, Hardhat, React e Ethers.js.
 
-Try running some of the following tasks:
+## Funcionalidades
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
+- Armazena e exibe um número
+- Exibe o nome do desenvolvedor
+- Botões para incrementar, decrementar e resetar
+- Alerta de “Parabéns!” ao atingir 10
+
+## Tecnologias
+
+- Solidity
+- Hardhat
+- React
+- TypeScript
+- Ethers.js
+
+## Como rodar localmente
+
+```bash
 npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.ts
-```
+npx hardhat run scripts/deploy.ts --network localhost
+npm start
